@@ -30,5 +30,6 @@ def clean(df):
     Input
          df    :[pandas.DataFrame] with the raw data
     Output
-         df    :[pandas.DataFrame] with the cleaned data
+         df    :[pandas.DataFrame] with the rows containing na removed
     """
+    return df.dropna(axis=0)
