@@ -4,12 +4,27 @@ In this project we solve a really simple data science project by looking at some
 The results are then posted to Medium as a blog post in order to exercise our
 ability to communicate complex information
 
+## Dependencies
+The required python libraries are:
+- numpy
+- pandas
+- matplotlib
+- sklearn
+
+Additionally some plots use
+- plotly
+However these cells don't need to be run
+
 ## File structure
 The files within the project are the following
 
 - jpNotebook.ipynb   : Jupyter notebook containing the results
 - data/d1.csv        : File that contains the raw data
-- code/              : Contains the backend computation used in the notebook 
+- code/              : Contains the back-end computation used in the 
+  1. loadData.py Load and clean the raw data
+  2. genericPlots.py : Plot functions that rely on matplotlib only
+  3. plotPlotyly.py  : Plot functions that rely on plotly as an backend
+  4. models.py       : Model building on the dataset
 
 
 # Dataset
