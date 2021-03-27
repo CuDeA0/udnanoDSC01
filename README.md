@@ -2,14 +2,14 @@
 This repository is created to solve the project for the Udacity Nanodegree in Data Science. The project is a part of the Introduction to data science. 
 In this project we solve a really simple data science project by looking at some datasets, coming up with a question and answering it. 
 The results are then posted to Medium as a blog post in order to exercise our
-ability to communicate complex information.
+ability to communicate complex information
 
 ## File structure
 The files within the project are the following
 
 - jpNotebook.ipynb   : Jupyter notebook containing the results
-- data/               : Folder contains the raw datafiles
-- 
+- data/d1.csv        : File that contains the raw data
+- code/              : Contains the backend computation used in the notebook 
 
 
 # Dataset
