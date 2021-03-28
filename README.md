@@ -13,6 +13,8 @@ The required python libraries are:
 
 Additionally some plots use
 - plotly
+- IPython
+- Seaborn
 However these cells don't need to be run
 
 ## File structure
