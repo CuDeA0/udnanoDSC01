@@ -4,6 +4,10 @@ In this project we solve a really simple data science project by looking at some
 The results are then posted to Medium as a blog post in order to exercise our
 ability to communicate complex information
 
+## Medium Post
+Wrote a blog post for the project on medium
+- https://cudea0.medium.com/failing-forwards-with-game-data-da441a6ca1fa
+
 ## Dependencies
 The required python libraries are:
 - numpy
