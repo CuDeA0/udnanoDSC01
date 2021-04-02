@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
 def publisher_histogram(df, title, ylabel):
     """
     A specifically selected dataframe.
@@ -12,7 +13,7 @@ def publisher_histogram(df, title, ylabel):
     Plot a histogram showing the distribution
     """
     plt.close("all")
-    fig, ax = plt.subplots(1,1,figsize=(8,6))
+    fig, ax = plt.subplots(1, 1,figsize=(8,6))
     x = np.arange(len(df))
     ax.bar(x, df)
     ax.set_xticks(x)

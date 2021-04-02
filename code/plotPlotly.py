@@ -4,7 +4,7 @@ Plotting functions that requrire the plotly library to be installed
 import plotly.graph_objects as go
 
 
-def histBase(df, x, y):
+def histBase(df, x, y, filename="standard"):
     """
     Input a dataframe object and a single x value (key value of the x label)
     and either 1 or more samples for Y so that a histogram can be created
@@ -20,4 +20,5 @@ def histBase(df, x, y):
         )
                       )
         fig.update_layout(barmode='stack', title=x)
+
     return fig

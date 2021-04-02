@@ -30,11 +30,26 @@ The files within the project are the following
 
 
 # Dataset
-Description of the datset
+The dataset originates from kaggle, it can be retrieved via:
+- https://www.kaggle.com/gregorut/videogamesales
+It depectis video game sales of video games with sales greater than 100,000  copies.
+
+It allows us to split video games by platform, year, genre and publisher. Our objective is to expore and validate the dataset. Understand it's deficiencies.
 
 ## Research Question
-What is our question for the dataset?
+The major research questions will revolve around the validity of the dataset. Once that is done we can ask a few follow up questions.
 
+1. Data validation, how well does this dataset represent our a-priory knowledge
+2. What genre is the best selling one
+3. How do the sales of the top highest grossing companies project forwards
+4. Trends for sales in each market segment
+5. Are there any descernable trends in the names
+
+## Answers
+
+1. Before hand we know video game sales have been increaseing, so the dropoff we see suggests that the dataset isn't truely representative of the real workld. From here on out we will assume this works. We can then build predictive sales models and theoretically we could verify them agains another dataset.
+2. By grouping the genre and summing up the overall sales we can figure out what gere is best selling.
+3. 
 
 ## Methodology
 How are we going to answer the question?
