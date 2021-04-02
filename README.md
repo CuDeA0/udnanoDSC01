@@ -41,21 +41,9 @@ The major research questions will revolve around the validity of the dataset. On
 
 1. Data validation, how well does this dataset represent our a-priory knowledge
 2. What genre is the best selling one
-3. How do the sales of the top highest grossing companies project forwards
-4. Trends for sales in each market segment
-5. Are there any descernable trends in the names
+3. Who are the market leaders
+4. What is the correlation between producing number of games and overall sales
 
-## Answers
-
-1. Before hand we know video game sales have been increaseing, so the dropoff we see suggests that the dataset isn't truely representative of the real workld. From here on out we will assume this works. We can then build predictive sales models and theoretically we could verify them agains another dataset.
-2. By grouping the genre and summing up the overall sales we can figure out what gere is best selling.
-3. 
-
-## Methodology
-How are we going to answer the question?
-
-## Results
-What are the results?
 
 # About Me
 CuDeA  : Custom Design Algorithms is my attempt at setting up a consultancy/company that allows me to follow my passion. I hold a BS in Mechatroics Engineering and MSc in Electrical Engineering from Reykjavik University [Iceland]. There I fell in love with computation and engineering optimization, leading to do my MS thesis on nonlinear optimization. Since then I have been lucky to get jobs in research institutes, first at https://www.iiim.is/, currently at https://www.mining3.com/ where I have been able to hone my programming skills and problem solving for technical issues. 
