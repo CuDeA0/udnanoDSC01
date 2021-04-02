@@ -2,7 +2,7 @@
 Plotting functions that requrire the plotly library to be installed
 """
 import plotly.graph_objects as go
-
+import plotly.express as px
 
 def histBase(df, x, y, filename="standard"):
     """
@@ -22,3 +22,4 @@ def histBase(df, x, y, filename="standard"):
         fig.update_layout(barmode='stack', title=x)
 
     return fig
+

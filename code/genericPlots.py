@@ -22,3 +22,23 @@ def publisher_histogram(df, title, ylabel):
     ax.set_ylabel(ylabel)
     ax.set_title(title)
     return fig, ax
+
+
+def distribution(df, keys):
+    """Plot the sorted values of the df based on list
+    Input:
+       df [pandas dataframe series] : With the data
+       keys [list of strings]  : Names of columns to plot
+    """
+    fig, ax = plt.subplots(1,1,figsize=(12,10))
+
+    for key in keys:
+        x = np.arange(len(df))
+        y = sorted(df[key].to_numpy(), reverse=False)
+        ax.hist(y, bins=100, label=key, alpha=0.70)
+    ax.grid(True)
+    ax.legend()
+    ax.set_xlim([-1, 5])
+    ax.set_xlabel("No samples in value")
+
+    return fig, ax
